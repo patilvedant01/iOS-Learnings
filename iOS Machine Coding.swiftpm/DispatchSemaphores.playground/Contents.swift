@@ -23,7 +23,6 @@ class Product {
         defer {
             semaphore.signal()
         }
-        
         self.price = updatedPrice
     }
 }
